@@ -4,7 +4,7 @@ Developed a load balancer in Scala using Akka HTTP and Akka Actors. The load bal
  • Health Checks: Periodically checks the health of backend servers and adjusts the list of active servers accordingly.
  • Resilience: Automatically removes failed servers from the active list and redistributes requests to available servers.
 
-## Key Technologies Used:
+# Key Technologies Used:
 • Scala: Programming language used for implementing the load balancer.
 • Akka HTTP: Library used for handling HTTP requests and responses.
 • Akka Actors: Framework used for building concurrent, distributed, and fault-tolerant applications.
